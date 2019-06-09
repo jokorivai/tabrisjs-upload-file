@@ -1,0 +1,16 @@
+{
+  "name": "tabrisjs-upload-file",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "test": "eslint .",
+    "start": "tabris serve -w"
+  },
+  "dependencies": {
+    "tabris": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}

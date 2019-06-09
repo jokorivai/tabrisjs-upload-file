@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.atm.tabrisjsuploadfile" version="0.1.0">
+  <name>Tabrisjs Upload File</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email="buyutjokorivai@gmail.com">
+    jokorivai
+  </author>
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+  <access origin="*"></access>
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+  <preference name="UseStrictSSL" value="false" />
+  
+  <!-- Edit Config for info.plist -->
+  <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>Need camera access to take pictures</string>
+  </edit-config>
+  <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+      <string>Need photo library access to get pictures from there</string>
+  </edit-config>
+  <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+      <string>Need location access to find things nearby</string>
+  </edit-config>
+  <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+      <string>Need photo library access to save pictures there</string>
+  </edit-config>
+</widget>
