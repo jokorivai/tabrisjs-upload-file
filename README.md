@@ -104,10 +104,10 @@ tabris run android|ios
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/Simulator Screen Shot - iPhone X - 2019-06-09 at 16.53.46.png?raw=true)
+![Screenshot 1](/screenshots/ss1.png?raw=true)
 
-![Screenshot 1](/screenshots/Simulator Screen Shot - iPhone X - 2019-06-09 at 16.53.59.png?raw=true)
+![Screenshot 2](/screenshots/ss2.png?raw=true)
 
-![Screenshot 1](/screenshots/Simulator Screen Shot - iPhone X - 2019-06-09 at 16.54.07.png?raw=true)
+![Screenshot 3](/screenshots/ss3.png?raw=true)
 
-![Screenshot 1](/screenshots/Screen Shot 2019-06-09 at 16.54.22.png?raw=true)
+![Screenshot 4](/screenshots/ss4.png?raw=true)
