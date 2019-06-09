@@ -7,6 +7,31 @@ I was struggle to get this simple thing to work: Upload file(s) from TabrisJS Ap
 
 Just use TabrisJS' XMLHttpRequest - which supports binary transfer - and everything works like charm.
 
+## Purpose
+
+This repo demonstrates a simple way to upload file with transfer progress, from TabrisJS app to PHP/NodeJS server.
+A progress bar (TabrisJS' ProgressBar widget) is used to show the transfer progress. Two callbacks are used, one to notify upload progress and another to notify if transfer is finished/failed.
+
+```
+// cbDone: function(error, result){}
+// cbProgress: function(totalSize, uploadedSize){}
+uploadFile(fileUri, function(error, result){
+  if (error){
+    // notify the error
+    progressbar.tintColor = '#f00'; // red
+    // ....
+  } else {
+    // transfer finished
+    console.log(result);
+    progressbar.tintColor = '#0f0'; // green
+  }
+}, function(totalSize, uploadedSize){
+  // update progress bar
+  progressbar.maximum = totalSize;
+  progressbar.selection = uploadedSize;
+})
+```
+
 ## Prerequisites
 
 ### TabrisJS App Side
@@ -106,8 +131,8 @@ tabris run android|ios
 
 <img src="/screenshots/ss1.png?raw=true" width="200" />
 
-![Screenshot 2](/screenshots/ss2.png?raw=true)
+<img src="/screenshots/ss1.png?raw=true" width="200" />
 
-![Screenshot 3](/screenshots/ss3.png?raw=true)
+<img src="/screenshots/ss1.png?raw=true" width="200" />
 
-![Screenshot 4](/screenshots/ss4.png?raw=true)
+<img src="/screenshots/ss1.png?raw=true" width="200" />
