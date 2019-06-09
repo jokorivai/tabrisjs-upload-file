@@ -104,7 +104,7 @@ tabris run android|ios
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/ss1.png?raw=true)
+<img src="/screenshots/ss1.png?raw=true" width="200" />
 
 ![Screenshot 2](/screenshots/ss2.png?raw=true)
 
