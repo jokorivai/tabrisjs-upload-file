@@ -19,11 +19,17 @@ If you are building offline - i.e. your own development machine, use:
   cd build/cordova
 ```
 Add target platform(s):
-`cordova platform add android`
-`cordova platform add ios`
+```
+cordova platform add android
+cordova platform add ios
+```
 
 Add the plugin:
-`cordova-plugin-camera`
+```
+cordova-plugin-camera
+```
 
 You can back to the TabrisJS App's root folder by:
-`cd ../..`
+```
+cd ../..
+```
