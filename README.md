@@ -129,10 +129,10 @@ tabris run android|ios
 
 ## Screenshots
 
-<img src="/screenshots/ss1.png?raw=true" width="200" />
+<img src="/screenshots/ss1.png?raw=true" width="300" />
 
-<img src="/screenshots/ss1.png?raw=true" width="200" />
+<img src="/screenshots/ss2.png?raw=true" width="300" />
 
-<img src="/screenshots/ss1.png?raw=true" width="200" />
+<img src="/screenshots/ss3.png?raw=true" width="300" />
 
-<img src="/screenshots/ss1.png?raw=true" width="200" />
+<img src="/screenshots/ss4.png?raw=true" width="300" />
